@@ -21,3 +21,12 @@ jugadores.pop(1)
 
 #Contar elementos de una lista
 len(jugadores)
+
+# Añadimos a Rodri solamente si no está ya en la lista.
+
+if "Rodri" not in jugadores:
+    jugadores.append("Rodri")
+    print("Rodri ha sido añadido")
+
+else:
+    print("Rodri ya estaba en la lista")
