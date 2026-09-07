@@ -7,7 +7,7 @@ for jugador in jugadores:
 
 
 
-    numeros = [5, 12, 8, 25, 3, 18]
+numeros = [5, 12, 8, 25, 3, 18]
 
 for numero in numeros:
     if numero >= 10:
