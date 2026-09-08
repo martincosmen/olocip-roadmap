@@ -12,3 +12,5 @@ numeros = [5, 12, 8, 25, 3, 18]
 for numero in numeros:
     if numero >= 10:
         print(numero, "es mayor o igual que 10")
+
+        aa
