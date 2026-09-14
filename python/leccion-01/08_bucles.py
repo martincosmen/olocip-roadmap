@@ -1,14 +1,21 @@
-# Crear una lista
+# ==========================================
+# BUCLE FOR
+# ==========================================
+
+# Recorre elementos de una lista
 jugadores = ["Lamine", "Pedri", "Gavi", "Cubarsí"]
 
-# Recorrer todos los elementos
 for jugador in jugadores:
     print(jugador)
 
 
+# ==========================================
+# BUCLE WHILE
+# ==========================================
 
-numeros = [5, 12, 8, 25, 3, 18]
+# Repite mientras se cumpla una condición
+jornada = 1
 
-for numero in numeros:
-    if numero >= 10:
-        print(numero, "es mayor o igual que 10")
+while jornada <= 5:
+    print("Jornada", jornada)
+    jornada = jornada + 1
